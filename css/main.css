@@ -57,13 +57,21 @@ textarea {
    ========================================================================== */
 
 body {
-    min-width: 1280px;
+    min-width: 1366px;
     background: #333;    
+}
+
+body.narrow {
+    min-width: 1280px;    
+}
+
+body.narrow .wrapper {
+    width: 1280px;
 }
 
 .wrapper {
     margin: 0 auto;
-    width: 1280px;
+    width: 1366px;
     position: relative;
 }
 
