@@ -75,6 +75,15 @@ body.narrow .wrapper {
     position: relative;
 }
 
+.links-image {
+    position: relative;
+}
+
+.links-image > img {
+    margin: 0 auto;
+    display: block;
+}
+
 .links {
     position: absolute;
     display: block;
@@ -82,6 +91,12 @@ body.narrow .wrapper {
     bottom: 115px;
     left: 80px;
     right: 85px;    
+}
+
+.links-image .links {
+    bottom: 42px;
+    left: 125px;
+    right: 125px;
 }
 
 .link {
