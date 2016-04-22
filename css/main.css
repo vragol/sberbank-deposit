@@ -75,6 +75,17 @@ body.narrow .wrapper {
     position: relative;
 }
 
+.back {
+    color: #318835;
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.back:before {
+    content: "←";
+}
+
 .links-image {
     position: relative;
 }
