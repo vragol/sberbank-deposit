@@ -56,7 +56,58 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    min-width: 1280px;
+    background: #333;    
+}
 
+.wrapper {
+    margin: 0 auto;
+    width: 1280px;
+    position: relative;
+}
+
+.links {
+    position: absolute;
+    display: block;
+    height: 270px;
+    bottom: 115px;
+    left: 80px;
+    right: 85px;    
+}
+
+.link {
+    position: absolute;
+    display: block;
+    width: 280px;
+    height: 270px;
+    bottom: 0px;
+    left: 0px;
+}
+
+a.link:hover {
+    outline: 1px solid #318835;
+}
+
+.link0 {
+    width: 280px;    
+    left: 0px;
+}
+
+.link1 {
+    width: 280px;    
+    left: 280px;
+}
+
+.link2 {
+    width: 277px;    
+    left: 560px;
+}
+
+.link3 {
+    width: 278px;    
+    left: 837px;
+}
 
 
 
